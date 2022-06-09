@@ -1,0 +1,166 @@
+.navbar {
+    height: 100px;
+    background-color: rgba(0, 0, 0, 255)
+}
+
+.hlavneLogo {
+    width: 200px;
+    height: auto;
+}
+nav .navbar-nav li a {
+    color: #cfa866 !important;
+    font-weight: bold;
+    }
+
+.obrazok-grid {
+    width: 100%;
+    height: auto;
+    margin-top: 1em;
+}
+
+.navbar-toggler-icon {
+    color: #cfa866;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+        "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(207, 168, 102, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.custom-toggler.navbar-toggler {
+    border-color: rgba(207, 168, 102, 0.8);
+
+}
+
+.nadpis-1 {
+    color: white;
+    margin-top: 1em;
+    background-color: rgba(207, 168, 102, 0.9);;
+    padding-bottom: 5px;
+}
+
+.bg-dark {
+    background-image: url(eldenRing.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.main {
+    background-image: url(eldenRing.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+.paragraf {
+    color: white;
+    margin-top: 1.5em;
+    margin-left: 0.2em;
+    background-color: rgba(207, 168, 102, 0.9);
+}
+
+.nav-item {
+    background-color: black;
+}
+
+.text-footer {
+    color: white;
+    text-align: center;
+    
+}
+
+.card-footer {
+    background-color: #cfa866;
+    height: 3.5em;
+}
+
+@media only screen and (max-width: 1235px) {
+    .my-carousel {
+      display: none;
+    }
+  }
+
+@media only screen and (min-width: 1236px) {
+    .my-container {
+      display: none;
+    }
+  }
+
+.nadpis-galeria {
+    background-color: black;
+    text-align: center;
+    color: #cfa866;
+    margin-bottom: 0px
+
+}
+
+#scroll-top {
+    position: fixed;
+  right: 10px;
+  bottom: 10px;
+  margin: 0;
+  text-decoration: none;
+}
+
+#scroll-top button {
+    width: 50px;
+  height: 50px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 100%;
+  border: solid 5px black;
+  background-color: #cfa866;
+  color: white;
+  box-shadow: 0 0 1px #333;
+  display: block;
+  font-family: tahoma;
+  font-size: 11px;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  transition: 1s;
+}
+
+#scroll-top button:hover {
+  background-color: #cfa866;
+  border-color: white;
+}
+.kontakt{
+    width: 50%;
+    height: 880px;
+}
+@media only screen and (max-width: 1100px) {
+    .kontakt {
+      width: 100%;
+    }
+  }
+
+
+.form-label {
+    color: white;
+    background-color: rgba(207, 168, 102, 0.9);
+}
+
+.centrovanie {
+    padding-top: 20%;
+}
+
+.tlacitko {
+    background-color: #cfa866;
+    border: #cfa866;
+}
+
+.from-logo {
+    width: 500px;
+}
+
+.about-text {
+    color: white;
+    padding: 10px;
+    text-align: justify;
+    background-color: rgba(207, 168, 102, 0.7);
+}
+
+.medzera {
+    padding: 50px;
+}
